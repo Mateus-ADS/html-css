@@ -1,0 +1,132 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(66, 55, 51);
+}
+nav {
+    background-color: rgb(53, 44, 41);
+    padding-top: 10px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 200;
+    text-align: right;
+    margin: -2px -6px -10px auto;
+    transition-duration: 0.5s;
+    margin-bottom: 20px;
+    min-width: 200px;
+    
+}
+.logo {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -20px;
+    height: 35px;
+    width: 35px;
+}
+nav a { 
+    margin-right: -4px;
+    padding: 30px;
+    text-decoration: none;
+    color: #7c6259;
+}
+nav a:hover {
+    padding-bottom: 25px;
+    color: rgb(87, 72, 67);
+    transition-duration: 0.7s;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+.titulo-principal {
+    text-align: center;
+    color: #7c6259;
+    text-shadow: 2px 2px 5px #6e575096;
+    border-top-left-radius: 20px;
+    background-color: rgb(53, 44, 41);
+    width: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+h2 {
+    text-align: center;
+    color: #7c6259;
+    font-size: 1.3em;
+}
+.links p{
+    text-align: center;
+    font-size: 1.1em;
+    padding: 5px;
+    margin-right: 25px;
+   
+}
+.links a:hover {
+    background-color: #7c6259;
+    color: #33423F;
+    padding: 7px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px #7c6259;
+    transition-duration: 0.5s;
+}
+.links a{
+    text-decoration: none;
+    color: #33423F;
+    transition-duration: 0.3s;
+}
+main {
+    background-color: #8F817C;
+    width: 50%;
+    max-width: 750px;
+    min-width: 200px;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.253);
+}
+.foto {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 150px;
+    border-radius: 20px;    
+
+}
+main p {
+    padding: 0 20px 0px 20px;
+}
+main p {
+    color: #33423F;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+}
+footer {
+    background-color: rgb(53, 44, 41);
+    margin-top: 720px;
+}
+footer p {
+    text-align: center;
+    color: #7c6259;
+}
+.contato a{
+    text-decoration: underline;
+    color: #7c6259;
+    padding-right: 20px;
+}
+div p {
+    text-align: left;
+    padding: 10px;
+    font-size: 1.1em;
+}
+strong {
+    color: #a07f74;
+}

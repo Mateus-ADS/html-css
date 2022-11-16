@@ -1,0 +1,22 @@
+.titulo1 {
+    text-align: center;
+}
+.titulo2 {
+    text-align: center;
+}
+.imagem01 {
+    display: block;
+    margin: 0px auto;
+}
+.paragrafo {
+    text-align: center;
+}
+.contato{
+    text-align: center;
+}
+.lista{
+    text-align: center;
+}
+.body {
+    background-color: rgb(90, 158, 170);
+}

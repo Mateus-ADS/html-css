@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to top ,#F5F5F3 5%,#DBDBD3,#A8A8A2,#636360,#5C5C58);
+    margin-right: 0px;
+}
+
+:root {
+    --cor01 : #295f5c;
+    --cor02 : #0F7D76;
+    --cor03 : #1EFCEE;
+    --cor04 : #19d0c4;
+    --cor05 : #6afdf3;
+    --cor06 : #19d0c452;
+
+}
+
+nav {
+    background-color: var(--cor02);
+    height: 2%;
+    padding: 10px;
+    text-align: right;
+    width: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);  
+}
+nav > a{
+    margin-right: 30px;
+    color: white;
+    height: 50px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+nav > a:hover {
+    background-color: var(--cor05);
+    color: var(--cor01);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 15px var(--cor03);
+}
+main {
+    text-align: center;
+    background-color: var(--cor01);
+    min-width: 190px;
+    max-width: 1080px;
+    height: 1080px;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 100px;
+    
+}
+strong {
+    color: var(--cor04);
+    font-weight: lighter;
+    background-color: var(--cor02);
+    padding: 3px;
+    border-radius: 8px;
+}
+main > h1, h2, p{
+    color: var(--cor05);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+main > p {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+main  a {
+    color: white;
+    text-decoration: none;
+    height: 10px;
+    transition-duration: 0.3s;
+    
+}
+main .link:hover {
+    box-shadow: 1px 2px 10px var(--cor05);
+    background-color: var(--cor05);
+    color: var(--cor01);
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    
+}
+img {
+    height: 80px;
+    width: 80px;
+    
+}
+.img-link {
+    height: 20px;
+    width: 20px;
+}
+.rodape{
+    background-color: var(--cor02);
+    text-align: center;
+}
