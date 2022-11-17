@@ -6,6 +6,14 @@
 body {
     background-color: rgb(66, 55, 51);
 }
+:root {
+    --cor01 : #7c6259;
+    --cor02 : #8F817C;
+    --cor03 : #a07f74;
+    --cor04 : #6e595296;
+    --cor05 : #a07f74;
+    --cor06 : #33423F;
+}
 nav {
     background-color: rgb(53, 44, 41);
     padding-top: 10px;
@@ -31,7 +39,7 @@ nav a {
     margin-right: -4px;
     padding: 30px;
     text-decoration: none;
-    color: #7c6259;
+    color: var(--cor01);
 }
 nav a:hover {
     padding-bottom: 25px;
@@ -44,8 +52,8 @@ p {
 }
 .titulo-principal {
     text-align: center;
-    color: #7c6259;
-    text-shadow: 2px 2px 5px #6e575096;
+    color: var(--cor01);
+    text-shadow: 2px 2px 5px rgb(75, 59, 52);
     border-top-left-radius: 20px;
     background-color: rgb(53, 44, 41);
     width: auto;
@@ -59,31 +67,31 @@ h1 {
 }
 h2 {
     text-align: center;
-    color: #7c6259;
+    color: var(--cor01);
     font-size: 1.3em;
 }
 .links p{
     text-align: center;
     font-size: 1.1em;
-    padding: 5px;
+    padding: 12px;
     margin-right: 25px;
    
 }
 .links a:hover {
-    background-color: #7c6259;
-    color: #33423F;
-    padding: 7px;
+    background-color: var(--cor01);
+    color: var(--cor06);
+    padding: 11px;
     border-radius: 6px;
-    box-shadow: 2px 2px 6px #7c6259;
-    transition-duration: 0.5s;
+    box-shadow: 2px 2px 6px var(--cor01);
+    transition-duration: 0.2s;
 }
 .links a{
     text-decoration: none;
-    color: #33423F;
-    transition-duration: 0.3s;
+    color: var(--cor06);
+    transition-duration: 0.5s;
 }
 main {
-    background-color: #8F817C;
+    background-color: var(--cor02);
     width: 50%;
     max-width: 750px;
     min-width: 200px;
@@ -115,18 +123,18 @@ footer {
 }
 footer p {
     text-align: center;
-    color: #7c6259;
+    color: var(--cor01);
 }
 .contato a{
-    text-decoration: underline;
-    color: #7c6259;
+    text-decoration: none;
     padding-right: 20px;
+    color: var(--cor01);
+}
+.contato a:hover {
+    color: rgb(87, 72, 67);
 }
 div p {
     text-align: left;
     padding: 10px;
     font-size: 1.1em;
-}
-strong {
-    color: #a07f74;
 }
