@@ -12,7 +12,7 @@ body {
     --cor03 : #a07f74;
     --cor04 : #6e595296;
     --cor05 : #a07f74;
-    --cor06 : #33423F;
+    --cor06 : #52413b;
 }
 nav {
     background-color: rgb(53, 44, 41);
@@ -87,7 +87,8 @@ h2 {
 }
 .links a{
     text-decoration: none;
-    color: var(--cor06);
+    color: #241d1b;
+    font-weight: 400;
     transition-duration: 0.5s;
 }
 main {
@@ -109,13 +110,13 @@ main {
 
 }
 main p {
-    padding: 0 20px 0px 20px;
-}
-main p {
-    color: #33423F;
+    padding: 0 20px 20px 20px;
+    color: #241d1b;
     font-weight: 400;
     font-size: 17px;
     line-height: 1.7;
+    
+
 }
 footer {
     background-color: rgb(53, 44, 41);
