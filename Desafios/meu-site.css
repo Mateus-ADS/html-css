@@ -10,7 +10,7 @@ body {
     --cor01 : #7c6259;
     --cor02 : #8F817C;
     --cor03 : #a07f74;
-    --cor04 : #6e595296;
+    --cor04 : #85675d;
     --cor05 : #a07f74;
     --cor06 : #52413b;
 }
@@ -78,18 +78,14 @@ h2 {
    
 }
 .links a:hover {
-    background-color: var(--cor01);
-    color: var(--cor06);
-    padding: 11px;
-    border-radius: 6px;
-    box-shadow: 2px 2px 6px var(--cor01);
-    transition-duration: 0.2s;
+    color: var(--cor04);
+    transition-duration: 0.4s;
 }
 .links a{
     text-decoration: none;
     color: #241d1b;
     font-weight: 400;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 main {
     background-color: var(--cor02);
