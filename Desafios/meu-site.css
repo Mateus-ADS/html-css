@@ -4,28 +4,25 @@
     padding: 0;
 }
 body {
-    background-color: rgb(66, 55, 51);
+    background-color: var(--cor04);
 }
 :root {
-    --cor01 : #7c6259;
-    --cor02 : #8F817C;
-    --cor03 : #a07f74;
-    --cor04 : #85675d;
-    --cor05 : #a07f74;
-    --cor06 : #52413b;
+    --cor01 : #393E46;
+    --cor02 : #6D9886;
+    --cor03 : #354d43;
+    --cor04 : #F2E7D5;
+    --cor05 : #F7F7F7;
 }
 nav {
-    background-color: rgb(53, 44, 41);
+    background-color: var(--cor01);
     padding-top: 10px;
     padding: 10px;
     font-size: large;
     font-weight: 200;
     text-align: right;
-    margin: -2px -6px -10px auto;
-    transition-duration: 0.5s;
+    margin: auto;
     margin-bottom: 20px;
-    min-width: 200px;
-    
+    min-width: 200px;    
 }
 .logo {
     display: block;
@@ -36,15 +33,20 @@ nav {
     width: 35px;
 }
 nav a { 
-    margin-right: -4px;
-    padding: 30px;
+    font-weight: 800;
+    margin-right: auto;
+    padding: 10px;
     text-decoration: none;
-    color: var(--cor01);
+    color: var(--cor02);
+    transition-duration: 0.3s;
+}
+nav a:visited {
+    color: var(--cor02);
 }
 nav a:hover {
     padding-bottom: 25px;
-    color: rgb(87, 72, 67);
-    transition-duration: 0.7s;
+    color: var(--cor03);
+    transition-duration: 0.2s;
 }
 p {
     text-align: justify;
@@ -52,10 +54,9 @@ p {
 }
 .titulo-principal {
     text-align: center;
-    color: var(--cor01);
-    text-shadow: 2px 2px 5px rgb(75, 59, 52);
+    color: var(--cor02);
     border-top-left-radius: 20px;
-    background-color: rgb(53, 44, 41);
+    background-color: var(--cor01);
     width: auto;
     padding: 10px;
     margin-bottom: 20px;
@@ -65,30 +66,29 @@ h1 {
     text-align: center;
     padding-bottom: 15px;
 }
-h2 {
-    text-align: center;
-    color: var(--cor01);
-    font-size: 1.3em;
-}
+
 .links p{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding: 12px;
     margin-right: 25px;
-   
+    font-weight: 600;
+}
+.links a:visited {
+    color: var(--cor01);
 }
 .links a:hover {
-    color: var(--cor04);
+    color: var(--cor02);
     transition-duration: 0.4s;
 }
 .links a{
     text-decoration: none;
-    color: #241d1b;
+    color: var(--cor01);
     font-weight: 400;
     transition-duration: 0.3s;
 }
 main {
-    background-color: var(--cor02);
+    background-color: var(--cor05);
     width: 50%;
     max-width: 670px;
     min-width: 400px;
@@ -103,7 +103,6 @@ main {
     text-align: center;
     width: 150px;
     border-radius: 20px;    
-
 }
 main p {
     padding: 0 20px 20px 20px;
@@ -111,43 +110,44 @@ main p {
     font-weight: 400;
     font-size: 17px;
     line-height: 1.7;
-    
-
 }
 footer {
-    background-color: rgb(53, 44, 41);
+    background-color: var(--cor01);
     margin-top: 720px;
 }
 footer p {
-    padding: 20px;
+    padding: 5px 0 5px 0;
     text-align: center;
-    color: var(--cor01);
-}
-.contato img{
-    width: 30px;
-    height: 30px;
-    margin: 20px;
-    display: block;
-    text-align: left;
-}
-.contato a {
-    text-decoration: none;
-    color: #7c6259;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 20px;
-    margin: auto;
-}
-.contato a:hover {
-    text-decoration: underline;
-    color: #6d564e;
+    color: var(--cor05);
+    background-color: var(--cor01);
 }
 
-div p {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 5px;
-    margin-left: -15px;
+div .insta {
+    margin-left: auto;
+}
+.contato {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+div img{
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    display: inline;
+    text-align: center;
+}
+.voltar-topo a{
+    color: var(--cor02);
+}
+.voltar-topo {
+    text-align: right;
+    margin: auto;
+    margin-top: -45px;
+    padding-right: 10px;
+}
+strong {
+    font-weight: 900;
+    color: var(--cor02);
 }
 
