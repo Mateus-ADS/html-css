@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        table {
+            font-family: arial;
+            width: 750px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        tr{
+            border: 1px solid black;
+        }
+        .cabeçalho {
+            background-color: rgb(54, 53, 53);
+            color: white;
+        }
+        .linha-mulher {
+            background-color: rgb(208, 89, 212);
+        }
+        .linha-homem {
+            background-color: rgb(101, 101, 224);
+        }
+        caption {
+            background-color: rgb(54, 53, 53);
+            color: white;
+            padding: 15px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        col.cnome {
+            background-color: chartreuse;
+        }
+        col.cgrupo{
+            background-color: yellow;
+        }
+        .amarelo {
+            background-color: yellow;
+        }
+        .vermelho {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cládio</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Ana Clara</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>Márcio</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Açogueiro</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>28</td>
+            <td>YouTuber</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Manicure</td>
+        </tr>
+    </table>
+</body>
+</html>
